@@ -1,4 +1,4 @@
-package main
+package microbatcher
 
 import (
 	"sync"
@@ -21,7 +21,7 @@ type BatchProcessor interface {
 	ProcessBatch(jobs []Job) []JobResult
 }
 
-// Batcher is a struct that represents a system for processing jobs in micro-batches.
+// Batcher: struct that represents a system for processing jobs in micro-batches.
 type Batcher struct {
 	jobs         chan Job
 	jobResults   chan JobResult

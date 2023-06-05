@@ -1,4 +1,4 @@
-module microbatcher
+module github.com/allanjoh/microbatcher
 
 go 1.20
 

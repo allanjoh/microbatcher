@@ -21,7 +21,7 @@ package main
 import (
 	"time"
 
-	"github.com/yourusername/yourproject/pkg/microbatcher"
+	"github.com/allanjoh/microbatcher"
 )
 
 type MyBatchProcessor struct{}
